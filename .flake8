@@ -1,0 +1,6 @@
+[flake8]
+ignore = E203,E266,W503,F403,VNE003,D104,D200,D205,D400,D401,D414,B008,B902,DUO104,N805,C901,C408,C414,D103,D100,D101,D102,D107,D202,E501,VNE002
+exclude = .git,__pycache__,docs/source/conf.py,old,build,dist
+max-line-length = 90
+max-complexity = 18
+select = B,C,E,F,W,T4,B9
